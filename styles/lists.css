@@ -1,0 +1,47 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.main-ul {
+    background-color: bisque;
+    width: 100px;
+    list-style: none;
+    padding-left: 15px;
+    margin: 0;
+}
+
+.top {
+    background-color: burlywood;
+    width: 100px;
+    margin: 0;
+}
+
+.main-ul a {
+    display: block;
+}
+
+.main-ul li {
+    padding-left: 20px;
+    background-image: url(/images/qr.jpg);
+    background-position: 0 0;
+    background-size: 15px 15px;
+    background-repeat: no-repeat;
+}
+
+.form {
+    margin-left: 5em;
+}
+
+.form input {
+    display: block;
+}
+
+.form .checkbox {
+    display: inline;
+}
+
+.color-red {
+    color: red;
+}

@@ -1,0 +1,98 @@
+
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+header {
+    background-color: blue;
+}
+
+h1 {
+    color: white;
+    font: 3em sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    color: white;
+    font: 2em sans-serif;
+}
+
+header > div {
+    padding-top: 2em;
+    padding-left: 2em;
+    padding-bottom: 2em;   
+}
+
+.subheader {
+    height: 3em;
+}
+
+.a {
+    display: inline-block;
+    height: inherit;
+    width: 20%;
+    background-color: black;
+    text-align: right;
+    padding-top: 1em;
+    padding-right: 0.5em;
+    color: white;
+}
+
+.b {
+    height: inherit;
+    width: 80%;
+    display: inline-block;
+    padding-top: 1em;
+    background-color: antiquewhite;
+    color: black;
+    padding-left: 0.5em;
+}
+
+.about-me h2 {
+    color: #000;
+    text-overflow: ellipsis;
+    padding-bottom: 0.5em;
+}
+
+.about-me h3 {
+    padding-bottom: 0.5em;
+}
+
+.about-me img {
+    display: inline-block;
+    
+}
+
+.left {
+    display: inline-block;
+    width: 50%;
+    margin-left: 2em;
+    margin-top: 2em;
+}
+
+
+.right {
+    display: inline-block;
+    width: 40%;
+    margin-left: 2em;
+}
+
+.right h2 {
+    color: #000;
+}
+
+
+
+.about-me article {
+    display: inline-block;
+    width: 18em;
+}

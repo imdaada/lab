@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    height: 150px;
+}
+
+.container div {
+    height: 10px;
+    
+    width: 100px;
+    background-color: aqua;
+    margin: 2px;
+    
+}
+
+.container div:nth-of-type(1) {
+    background-color: brown;
+    
+    height: 10px;
+}
+
+@media (max-width: 300px) {
+    .container {
+        flex-direction: column;
+    }
+}
+
